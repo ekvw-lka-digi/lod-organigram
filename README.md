@@ -1,6 +1,6 @@
 # Berlin LOD Organizational Charts
 
-This repository is the home for various Organizational Charts describing Berlins public administration as RDF / Linked Open Data .
+This repository is the home for various Organizational Charts describing EKvW administration as RDF / Linked Open Data .
 
 **[Start browsing the data!](https://berlin.github.io/lod-organigram/)**
 
