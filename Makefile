@@ -1,5 +1,5 @@
-base_uri = https://berlin.github.io/lod-organigram
-berorgs_uri = https://raw.githubusercontent.com/berlin/lod-vocabulary/fix_roles/data/static/berorgs.ttl
+base_uri = https://ekvw-lka-digi.github.io/lod-organigram
+berorgs_uri = https://raw.githubusercontent.com/ekvw-lka-digi/lod-vocabulary/fix_roles/data/static/berorgs.ttl
 log_sg_repo = https://github.com/berlinonline/lod-sg
 
 # This target creates the RDF file that serves as the input to the static site generator.
