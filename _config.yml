@@ -1,7 +1,7 @@
 baseurl: "/lod-organigram" # the subpath of your site, e.g. /blog
-url: "https://berlin.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://ekvw-lka-digi.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 true_url:
-  "https://berlin.github.io" # This duplication is necessary to make relative links work when
+  "https://ekvw-lka-digi.github.io" # This duplication is necessary to make relative links work when
   # running the Jekyll-Site locally, when `url` is replaced with something like http://localhost:4000
 
 dataset_url: "/lod-organigram/"
@@ -21,7 +21,7 @@ plugins:
 jekyll_rdf:
   include_blank: true
   path: "data/temp/all.nt"
-  restriction: "SELECT ?resourceUri WHERE { ?resourceUri ?predicate ?object FILTER(STRSTARTS(STR(?resourceUri), 'https://berlin.github.io/lod-organigram')) }"
+  restriction: "SELECT ?resourceUri WHERE { ?resourceUri ?predicate ?object FILTER(STRSTARTS(STR(?resourceUri), 'https://ekvw-lka-digi.github.io/lod-organigram')) }"
   default_template: "core/default"
   class_template_mappings:
     "http://rdfs.org/ns/void#Dataset": "dataset"
@@ -29,8 +29,8 @@ jekyll_rdf:
     "http://www.w3.org/ns/org#Organization": "w3_organization"
     "http://www.w3.org/ns/org#Post": "post"
     "http://www.w3.org/2006/vcard/ns#Individual": "individual"
-    "https://berlin.github.io/lod-vocabulary/berorgs/Organogram": "organogram"
-    "https://berlin.github.io/lod-organigram/ImprintPage": "core/imprint"
+    "https://ekvw-lka-digi.github.io/lod-vocabulary/berorgs/Organogram": "organogram"
+    "https://ekvw-lka-digi.github.io/lod-organigram/ImprintPage": "core/imprint"
     "http://www.w3.org/2002/07/owl#Ontology": "core/voc_ontology"
     "http://www.w3.org/2002/07/owl#Class": "core/voc_class"
     "http://www.w3.org/2000/01/rdf-schema#Class": "core/voc_class"
